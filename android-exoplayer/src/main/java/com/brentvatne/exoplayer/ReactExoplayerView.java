@@ -106,6 +106,7 @@ class ReactExoplayerView extends FrameLayout implements
 
     private int resumeWindow;
     private long resumePosition;
+    private long startPosition;
     private boolean loadVideoStarted;
     private boolean isFullscreen;
     private boolean isInBackground;
@@ -426,11 +427,15 @@ class ReactExoplayerView extends FrameLayout implements
                         mediaSource = new MergingMediaSource(textSourceArray);
                     }
 
-                    boolean haveResumePosition = resumeWindow != C.INDEX_UNSET;
-                    if (haveResumePosition) {
+                    boolean resetPosition = false;
+                    if (resumeWindow != C.INDEX_UNSET) {
                         player.seekTo(resumeWindow, resumePosition);
+                    } else if (startPosition > 0) {
+                        player.seekTo(startPosition);
+                    } else {
+                        resetPosition = true;
                     }
-                    player.prepare(mediaSource, !haveResumePosition, false);
+                    player.prepare(mediaSource, resetPosition, false);
                     playerNeedsSource = false;
 
                     eventEmitter.loadStart();
@@ -977,6 +982,10 @@ class ReactExoplayerView extends FrameLayout implements
 
     public void setReportBandwidth(boolean reportBandwidth) {
         mReportBandwidth = reportBandwidth;
+    }
+
+    public void setStartPosition(long startPosition) {
+        this.startPosition = startPosition;
     }
 
     public void setCookiePolicy(String cookiePolicy) {

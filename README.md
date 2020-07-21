@@ -309,6 +309,7 @@ var styles = StyleSheet.create({
 * [selectedAudioTrack](#selectedaudiotrack)
 * [selectedTextTrack](#selectedtexttrack)
 * [selectedVideoTrack](#selectedvideotrack)
+* [startPosition](#startPosition)
 * [source](#source)
 * [stereoPan](#stereopan)
 * [textTracks](#texttracks)
@@ -753,6 +754,12 @@ Type | Value | Description
 "index" | number | Play the video track with the index specified as the value, e.g. 0
 
 If a track matching the specified Type (and Value if appropriate) is unavailable, ABR will be used.
+
+Platforms: Android ExoPlayer
+
+#### startPosition
+
+Set's the starting position when the video begins playing (in seconds).
 
 Platforms: Android ExoPlayer
 
