@@ -759,7 +759,7 @@ Platforms: Android ExoPlayer
 
 #### startPosition
 
-Set's the starting position when the video begins playing (in seconds).
+Sets the starting position when the video begins playing (in seconds).
 
 Platforms: Android ExoPlayer
 
