@@ -702,8 +702,6 @@ class ReactExoplayerView extends FrameLayout implements
             case AudioManager.AUDIOFOCUS_LOSS:
                 this.hasAudioFocus = false;
                 eventEmitter.audioFocusChanged(false);
-                pausePlayback();
-                audioManager.abandonAudioFocus(this);
                 break;
             case AudioManager.AUDIOFOCUS_LOSS_TRANSIENT:
                 eventEmitter.audioFocusChanged(false);
