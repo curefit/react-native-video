@@ -1,3 +1,183 @@
+5.4.0
+
+
+Exo-player update
+
+Commits:
+
+* 5.4.0
+    [devops-conman] - https://github.com/curefit/react-native-video/commit/160cadab6857c62805f355dfc4bca83f4cdc9913
+    
+* Fix version
+    [Amandeep] - https://github.com/curefit/react-native-video/commit/c8c8f62f9accd33450b7ea5bd66a69d9dafdaa39
+    
+* Update version
+    [Amandeep] - https://github.com/curefit/react-native-video/commit/f09828bf95e540e2034a4433aff159e8c762dc95
+    
+* Disable audio pause
+    [Amandeep] - https://github.com/curefit/react-native-video/commit/00b3dd4f7e31bfe397baa61aa6d8680d064ef8c1
+    
+* Change version
+    [Amandeep] - https://github.com/curefit/react-native-video/commit/55cce7d904635fc58b5bb4118030c698a8a44762
+    
+* version update
+    [adarsha.nayak] - https://github.com/curefit/react-native-video/commit/1942af1a3842912f051b55df9fe2ad6a3fb9f8ea
+    
+* v5.2.0-stage.5
+    [adarsha.nayak] - https://github.com/curefit/react-native-video/commit/8ae3f2d73bbf6b8c3f9ef07690d35a8987b206a9
+    
+* Only setup pip if needed https://github.com/react-native-video/react-native-video/pull/2297
+    [adarsha.nayak] - https://github.com/curefit/react-native-video/commit/0485d22c776e6580174581b29417c3e4f8374d95
+    
+* Fix for tvOS native audio menu language selector
+    [Shane Mckenna] - https://github.com/curefit/react-native-video/commit/a42240d5543cbc9f7c11a0692c05d625d345457a
+    
+* update exoplayer to allow pre-init and content clear
+    [Nick] - https://github.com/curefit/react-native-video/commit/b5b5da0684195cb241100d818b76a9bf7800378d
+    
+* Upgrade ExoPlayer to 2.13.2 (#2317)
+    [Armands Malejev] - https://github.com/curefit/react-native-video/commit/141192a56d4ecd6ff1e2ce5c5d587e047318ba19
+    
+* Fix AudoFocus pausing video when attempting to play (#2311)
+    [Armands Malejev] - https://github.com/curefit/react-native-video/commit/fcc66df9452eb4a263da6dbcfec81e06d5a59088
+    
+* Update README.md (#2292)
+    [Milan Susnjar] - https://github.com/curefit/react-native-video/commit/1eb11ce7b7619a04e65affedcb1ffff4f82f0af3
+    
+* React Native Windows updates (#2206)
+    [Jon Thysell] - https://github.com/curefit/react-native-video/commit/d7ac23d39b40cd53f962397e5602bf0ba82d9834
+    
+* Exoplayer: Use okhttp version specified in gradle.properties (#2340)
+    [Sean Holbert] - https://github.com/curefit/react-native-video/commit/3dc607c461480a10dce05bad98586444d73487de
+    
+* Update ReactNativeVideoCPP.vcxproj (#2288)
+    [Alexander Sklar] - https://github.com/curefit/react-native-video/commit/edf0e2776924e0d10a3808938ee0eb0c81022387
+    
+* Update package.json version number to 5.1.1
+    [Nick] - https://github.com/curefit/react-native-video/commit/5adedb131bc21bdf03eabca78e3eb8d7bab231ac
+    
+* Resolved an issue where setting a video to paused would ignore the “silent switch” setting
+    [Cameron Perry] - https://github.com/curefit/react-native-video/commit/f79782b4470f74c64926eff80db511596b07a05b
+    
+* Bugfix: #1930
+    [redspear] - https://github.com/curefit/react-native-video/commit/522af9eaa7d1b4e013a5bd835c1439f7f92d0ee4
+    
+* version update
+    [anubansal] - https://github.com/curefit/react-native-video/commit/da238ed6ab7971077c56b0898c28c7c26befdc4a
+    
+* updated bandwidthFraction for AdaptiveTrackSelection
+    [anubansal] - https://github.com/curefit/react-native-video/commit/4069effef840993d22098137b739c0979d435daa
+    
+* version update
+    [anubansal] - https://github.com/curefit/react-native-video/commit/d6726ed3f3cc6c0ae9d078b41f17a99bfd7e560c
+    
+* setting cookie policy from props
+    [anubansal] - https://github.com/curefit/react-native-video/commit/f1dff4d13710f5dd6feb5455029f8adb51428678
+    
+* added cookiePolicy prop for ExoPlayer
+    [anubansal] - https://github.com/curefit/react-native-video/commit/e7702c5f18b95305e8604293973873f75875081d
+    
+* updated verison
+    [Rishu Agrawal] - https://github.com/curefit/react-native-video/commit/877263e4263d3f4b20666e62055777c3f1465230
+    
+* Updated ReactVideoView
+    [Rishu Agrawal] - https://github.com/curefit/react-native-video/commit/ef7df20c5b80e624dda4db2788a1705db4ab2039
+    
+* updated package.json
+    [Rishu Agrawal] - https://github.com/curefit/react-native-video/commit/f4d81679d88a1f36318ac25cc27ad97cee254c51
+    
+* Added semicolon
+    [Rishu Agrawal] - https://github.com/curefit/react-native-video/commit/4b31eb5ad5195b7fd303b66d7a166ed20afb1a46
+    
+* Bug fix
+    [Rishu Agrawal] - https://github.com/curefit/react-native-video/commit/f9dfbdbdba5b7c186f8bed5758086139e75af785
+    
+* Updated package.json
+    [Rishu Agrawal] - https://github.com/curefit/react-native-video/commit/585832b0f14242d44e315b8428d05c4a1332b4d8
+    
+* Updated currentPlayback logic
+    [Rishu Agrawal] - https://github.com/curefit/react-native-video/commit/802abfc2b193ecafb49ef141f938754a09f51cb0
+    
+* Updated currentPlaybackTime
+    [Rishu Agrawal] - https://github.com/curefit/react-native-video/commit/5d4e91d1b31090484ae1a24cdd492663eb4679e9
+    
+* Updated package.json
+    [Rishu Agrawal] - https://github.com/curefit/react-native-video/commit/6a96902cd3dabee66f6fd691ebeaf0830177625e
+    
+* CurrentTime bug fix
+    [Rishu Agrawal] - https://github.com/curefit/react-native-video/commit/83afd5ffbac75b34e633dd7a88bdf066e44c4091
+    
+* updated version
+    [Rishu Agrawal] - https://github.com/curefit/react-native-video/commit/d1539ce5d3aca1188a7f024727288eb9cb82d789
+    
+* Updated package.json
+    [Rishu Agrawal] - https://github.com/curefit/react-native-video/commit/691a6bf32041e03184cd96deb05476a2cc7d73b0
+    
+* version update
+    [anubansal] - https://github.com/curefit/react-native-video/commit/2fc7f7b48e8cdba6c17963f8d2b9d2f0997ecf3d
+    
+* iOS changes
+    [Rishu Agrawal] - https://github.com/curefit/react-native-video/commit/389511ffece4a40e58147c5aa159c6381bc7d441
+    
+* Current window timestamp in epoch
+    [Rishu Agrawal] - https://github.com/curefit/react-native-video/commit/981368d64bba068b325fa4eccbbb49dafbf740c6
+    
+* return type
+    [Rishu Agrawal] - https://github.com/curefit/react-native-video/commit/86f65352d079885d724865bc2950ba1475d5ff25
+    
+* exo player window current tsp
+    [Rishu Agrawal] - https://github.com/curefit/react-native-video/commit/b25e22ae338941fb6c2b25402b04752273dee577
+    
+* Exposing time
+    [parikshit] - https://github.com/curefit/react-native-video/commit/55261366ad82f65406788420b04cc5cd5f4f83fe
+    
+* version update
+    [anubansal] - https://github.com/curefit/react-native-video/commit/1acc1e2bd0865ea67fc501584b4ee0ad0f36bf75
+    
+* configurable preferredForwardBufferDuration
+    [anubansal] - https://github.com/curefit/react-native-video/commit/33036748a2ad325e44c5b54bab6b42ba8ee06d87
+    
+* configurable preferredForwardBufferDuration
+    [anubansal] - https://github.com/curefit/react-native-video/commit/2039e958a09960df976cfb8917854f2263f9d6fd
+    
+* version bump
+    [anubansal] - https://github.com/curefit/react-native-video/commit/9f53c62e00ce098c703d3fc7d52d53376716aef9
+    
+* import fix
+    [anubansal] - https://github.com/curefit/react-native-video/commit/1a128400667b69320a64d2efa62b312f1999d874
+    
+* Version bump
+    [parikshit] - https://github.com/curefit/react-native-video/commit/b9b8f8982daf5770297ef1956de38510096f81e3
+    
+* Live playback fix
+    [parikshit] - https://github.com/curefit/react-native-video/commit/e45cb13952714ad01e52fa62a6f8ba1927324cf7
+    
+* package publish changes
+    [anubansal] - https://github.com/curefit/react-native-video/commit/7462dd8e9bbcb2d60f68b03e4e5179e9b0a34bbd
+    
+* version bump
+    [anubansal] - https://github.com/curefit/react-native-video/commit/6a3659724ee04fdb4ea4dda4244b8e51790aa12c
+    
+* sending complete logcat for media playback exception ExoPlaybackException
+    [anubansal] - https://github.com/curefit/react-native-video/commit/461165470bc51780b2befa27cf7cdc3baaafcddd
+    
+* version update
+    [anubansal] - https://github.com/curefit/react-native-video/commit/2ce2e34b4aeec89cab04045704351102f04132d5
+    
+* syntax fix
+    [anubansal] - https://github.com/curefit/react-native-video/commit/eb14d95e7c27a210e55c0364a19efdef6f9250de
+    
+* syntax fix
+    [anubansal] - https://github.com/curefit/react-native-video/commit/a102ce788b2f521f3c6facd1eb3749a0f7d2df74
+    
+* added trackInfo to bandwidth callback
+    [anubansal] - https://github.com/curefit/react-native-video/commit/e14221f05580e8ae0b629ee27b9d4a860b0c45ad
+    
+* added trackId to exoplayer onLoad callback
+    [anubansal] - https://github.com/curefit/react-native-video/commit/91fc16959cb468ca5f38015282b871d29d85d4fb
+    
+
+**********
 ## Changelog
 
 - Fix Android AudioFocus bug that could cause player to not respond to play/pause in some instances [#2311](https://github.com/react-native-video/react-native-video/pull/2311)
