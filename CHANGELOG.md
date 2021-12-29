@@ -1,3 +1,18 @@
+5.5.0
+
+
+Update to exo player
+
+Commits:
+
+* 5.5.0
+    [devops-conman] - https://github.com/curefit/react-native-video/commit/5c57540fe1e1c1dfeddffd2ddfb3b9141cef5a8c
+    
+* Update to 2.14 exoplayer
+    [Amandeep] - https://github.com/curefit/react-native-video/commit/10510db22ab995c7046b35a69c77712a39054b74
+    
+
+**********
 5.4.0
 
 
