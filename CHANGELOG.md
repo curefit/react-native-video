@@ -1,3 +1,24 @@
+5.10.0
+
+
+update scripts
+
+Commits:
+
+* 5.10.0
+    [devops-conman] - https://github.com/curefit/react-native-video/commit/3b682441502c699e0fcb92d501d4dce9acf926b9
+    
+* 5.9.0
+    [Chetan Jha] - https://github.com/curefit/react-native-video/commit/855cf34aa88431345a6520acb477ee6958e6874d
+    
+* test update script
+    [Chetan Jha] - https://github.com/curefit/react-native-video/commit/ed6b3ccf4703b7bd86ba10fa1ace3e344eda1bb3
+    
+* update scripts
+    [Chetan Jha] - https://github.com/curefit/react-native-video/commit/ca4da066fe712ae90f268c2454ad12f1f62fdef0
+    
+
+**********
 5.8.0
 
 
