@@ -1,3 +1,36 @@
+5.7.0
+
+
+merge 5.2.0
+
+Commits:
+
+* 5.7.0
+    [devops-conman] - https://github.com/curefit/react-native-video/commit/fec56536ce6f1efb22fa7fb187af4b2273406ab4
+    
+* 5.6.0
+    [Chetan Jha] - https://github.com/curefit/react-native-video/commit/6aeef0516454a1d62b67cf95ece5ee86385c5a83
+    
+* 5.5.0-stage.2
+    [Chetan Jha] - https://github.com/curefit/react-native-video/commit/ae088f96b984c2b8e0c81267608a6275b1ddbb23
+    
+* upgrade exoplayer to 2.14.2
+    [Chetan Jha] - https://github.com/curefit/react-native-video/commit/f5496a89f3e0aa22b969df063089dae01cea634f
+    
+* 5.5.0-stage.1
+    [Chetan Jha] - https://github.com/curefit/react-native-video/commit/7225838a0f66bf28590d45b8682f62f8d67bec69
+    
+* Release 5.2.0
+    [Jonas Dalesjö] - https://github.com/curefit/react-native-video/commit/81ae785090f5ce3d5e45cc51f68a3360a85be853
+    
+* Typo
+    [Jonas Dalesjö] - https://github.com/curefit/react-native-video/commit/d05f3dd5b96eb9f0e5a8cb3eb50d24ad1912d04d
+    
+* Release 5.2.0-alpha1
+    [Jonas Dalesjö] - https://github.com/curefit/react-native-video/commit/31f866cd9f198cf3e1f5045bdf77a5952e62ab19
+    
+
+**********
 5.5.0
 
 
