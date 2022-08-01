@@ -43,7 +43,10 @@
         "shaka-player": "^2.5.9"
     },
     "scripts": {
-        "lint": "yarn eslint *.js"
+        "lint": "yarn eslint *.js",
+        "build": "tsc",
+        "prepublishOnly": "rm -rf dist && tsc",
+        "postversion": "git push origin master && git push origin master --tags && npm publish"
     },
     "files": [
         "android-exoplayer",
