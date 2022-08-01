@@ -1,3 +1,15 @@
+5.8.0
+
+
+merge 5.2.0
+
+Commits:
+
+* 5.8.0
+    [devops-conman] - https://github.com/curefit/react-native-video/commit/5121dc3f3b6b319c1b552d2ab966952cda204db1
+    
+
+**********
 5.7.0
 
 
